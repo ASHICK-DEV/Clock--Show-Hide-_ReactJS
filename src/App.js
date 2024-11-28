@@ -24,7 +24,7 @@ class App extends Component {
           type="button"
           className="toggle-button"
         >
-          {showClock ? 'Show Clock' : 'Hide Clock'}
+          {showClock ? 'Hide Clock' : 'Show Clock'}
         </button>
         {showClock && <Clock />}
       </div>
